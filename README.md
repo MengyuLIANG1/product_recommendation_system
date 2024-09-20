@@ -6,15 +6,15 @@ The Product Recommendation System is designed to provide personalized product re
 ## Key Features:
 ### Image-Based Recommendations:
 
-Extract visual features from product images using convolutional neural networks (pretrained Resnet50).
-Generate image embeddings that capture the visual characteristics of each product.
-Recommend visually similar products by calculating similarity metrics between image embeddings.
+* Extract visual features from product images using convolutional neural networks (pretrained Resnet50).
+* Generate image embeddings that capture the visual characteristics of each product.
+* Recommend visually similar products by calculating similarity metrics between image embeddings.
 
 ### Metadata-Based Recommendations:
 
-Leverage product metadata (e.g., masterCategory, gender, season) to enhance the recommendations.
-Generate metadata embeddings using one-hot encoding .
-Combine image and metadata embeddings to improve recommendation relevance.
+* Leverage product metadata (e.g., masterCategory, gender, season) to enhance the recommendations.
+* Generate metadata embeddings using one-hot encoding .
+* Combine image and metadata embeddings to improve recommendation relevance.
 
 ### recommandation
 
