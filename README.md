@@ -6,7 +6,7 @@ The Product Recommendation System is designed to provide personalized product re
 ## Key Features:
 ### Image-Based Recommendations:
 
-* Extract visual features from product images using convolutional neural networks (pretrained Resnet50).
+* Extract visual features from product images using convolutional neural networks (pretrained Resnet50 or VGG16).
 * Generate image embeddings that capture the visual characteristics of each product.
 * Recommend visually similar products by calculating similarity metrics between image embeddings.
 
