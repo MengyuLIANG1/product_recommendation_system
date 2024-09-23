@@ -17,7 +17,7 @@ Metadata: Each image is accompanied by metadata including the product category, 
 
 * Extract visual features from product images using convolutional neural networks (pretrained Resnet50 or VGG16).
 * Generate image embeddings that capture the visual characteristics of each product.
-* Recommend visually similar products by calculating similarity metrics between image embeddings.
+* Recommend visually similar products by calculating similarity metrics(cosine similarity) between image embeddings.
 
 ### Metadata-Based Recommendations:
 
@@ -25,6 +25,9 @@ Metadata: Each image is accompanied by metadata including the product category, 
 * Generate metadata embeddings using one-hot encoding .
 * Combine image and metadata embeddings to improve recommendation relevance.
 
-### Recommandation
+### Image Retrieval Cluster Recommendation
 
-Provide the recommendation products based on cosine similarity.
+* Extract visual features from product images using convolutional neural networks (pretrained Resnet50 or VGG16).
+* The extracted embeddings are clustered using KMeans to group similar products.
+* For each product, recommendations are made by finding other products that belong to the same cluster.
+* Within each cluster, cosine similarity is used to rank the most visually similar products for recommendation.
