@@ -9,7 +9,7 @@ The dataset is obtained from Kaggle: [Fashion Product Images Dataset](https://ww
 Images: Around 44,000 high-resolution images of fashion products with a size of 2400x1600 pixels.
 Metadata: Each image is accompanied by metadata including the product category, subcategory, article type, and base color.
 
-**Note** Given the computational constraints and the size of the dataset, we have decided to adopt a sampling strategy for our analysis. Specifically, we will use 10% of the data from each subCategory. This approach ensures that the distribution of the data across different categories is maintained while significantly reducing the volume of data to be processed. By doing so, we aim to balance between computational efficiency and maintaining enough data for meaningful insights.
+**Note!** Given the computational constraints and the size of the dataset, we have decided to adopt a sampling strategy for our analysis. Specifically, we will use 10% of the data from each subCategory. This approach ensures that the distribution of the data across different categories is maintained while significantly reducing the volume of data to be processed. By doing so, we aim to balance between computational efficiency and maintaining enough data for meaningful insights.
 
 ## Key Features:
 ### Image-Based Recommendations:
